@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 214596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericStep.userHasToReg()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 74234,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericStep.AfterTheProcess()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93768812,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Browser is open",
+            "match": {
+              "location": "LoginStep.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2563638,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "username and password is entered",
+            "match": {
+              "location": "LoginStep.username_and_password_is_entered(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "designation"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "subatra",
+                  "wel",
+                  "engineer1"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57169,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Submit",
+            "match": {
+              "location": "LoginStep.click_on_Submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99832,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Validate the User details",
+            "match": {
+              "location": "LoginStep.validate_the_User_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@FirstDryRunTest"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "login feature",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
